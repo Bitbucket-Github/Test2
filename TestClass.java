@@ -15,7 +15,7 @@ public class TestClass {
         WebDriver driver=new ChromeDriver();  
           
            // Launch Website  
-        driver.navigate().to("https://www.flipkart.com"); 
+        driver.navigate().to("https://www.flipkart.com");
         
         driver.findElement(By.xpath("/html/body/div[2]/div/div/button")).click();
         driver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div[1]/div[2]/div[2]/form/div/div/input")).sendKeys("Samsung Galaxy Mobiles");
